@@ -26,15 +26,16 @@ export default function Hero() {
             fontWeight={600}
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
-            Make money from <br />
+            "CoParcel: Uniting Journeys <br />
             <Text as={'span'} color={'green.400'}>
-              your audience
+            Delivering Connections!
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-            Monetize your content by charging your most loyal readers and reward them
-            loyalty points. Give back to your loyal readers by granting them access to
-            your pre-releases and sneak-peaks.
+          "Empower your travels with CoParcel: 
+          Earn rewards as a trusted traveler by sharing your journey and offering parcel space. 
+          Get exclusive access to discounts and perks, 
+          turning every trip into a rewarding adventure for both you and those relying on your journey."
           </Text>
           <Stack
             direction={'column'}
