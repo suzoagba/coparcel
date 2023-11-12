@@ -32,10 +32,10 @@ export default function Hero() {
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-          "Empower your travels with CoParcel: 
+          `"Empower your travels with CoParcel: 
           Earn rewards as a trusted traveler by sharing your journey and offering parcel space. 
           Get exclusive access to discounts and perks, 
-          turning every trip into a rewarding adventure for both you and those relying on your journey."
+          turning every trip into a rewarding adventure for both you and those relying on your journey."`
           </Text>
           <Stack
             direction={'column'}
