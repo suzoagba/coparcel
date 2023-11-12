@@ -53,10 +53,22 @@ export default function Navbar() {
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
           <Text
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-            fontFamily={'heading'} 
+            fontFamily={'heading'}
             className={'text-2xl text-grey-700'}
             color={useColorModeValue('gray.800', 'white')}>
-            <Link href = "/" >CoParcel</Link>
+            <Link href="/" >
+              <div style={{
+                textDecoration: 'none',
+                color: 'white',
+                padding: '10px 20px',
+                borderRadius: '8px',
+                backgroundColor: '#ff3860',
+                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                transition: 'background-color 0.3s ease',
+                cursor: 'pointer', // Add cursor pointer to make it clear it's clickable
+              }}>
+                CoParcel
+              </div></Link>
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -238,7 +250,7 @@ const MobileNavItem = ({ label, children, href }) => {
 
 const NAV_ITEMS = [
   {
-    label: 'Inspiration',
+    label: 'BECOME A PARTNER',
     children: [
       {
         label: 'Explore Design Work',
@@ -253,7 +265,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: 'Find Work',
+    label: 'GET A QUOTE',
     children: [
       {
         label: 'Job Board',
@@ -268,11 +280,12 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: 'About',
+    label: 'ABOUT',
     href: '/about',
   },
   {
-    label: 'Contact',
+    label: 'CONTACT',
     href: '/contact',
   },
+
 ]
