@@ -49,45 +49,42 @@ export default function AboutPage() {
               What makes us tick!
             </Text>
           </Heading>
-        <Text color={'gray.200'}> 
-        Welcome to CoParcel, where journeys become a shared adventure and parcels find a reliable passage to their destination.
+          <Text color={'gray.200'}>
 
-        <br />
-        <br />
+            Welcome to CoParcel, where journeys become a shared adventure and parcels find a reliable passage to their destination.
 
-        Our Story:
-        At CoParcel, we believe in transforming travel into a collective experience. Inspired by the idea of connecting people through their journeys, we've created a platform that goes beyond miles and destinations. Our story began with a simple vision: to make travel more meaningful and economical by facilitating a community-driven parcel sharing service.
+            <br />
+            <br />
 
-        <br />
-        <br />
+            Our Story:
+            {`          At CoParcel, we believe in transforming travel into a collective experience. Inspired by the idea of connecting people through their journeys, we've created a platform that goes beyond miles and destinations. Our story began with a simple vision: to make travel more meaningful and economical by facilitating a community-driven parcel sharing service.
+`}
+            <br />
+            <br />
 
-        What We Do:
-        CoParcel is your travel companion, offering a unique solution for both travelers and senders. Travelers can now optimize their trips by sharing their itineraries and available parcel space, turning their journeys into an opportunity for adventure and shared experiences. On the other side, senders can benefit from a cost-effective and eco-friendly shipping alternative.
+            What We Do:
+            CoParcel is your travel companion, offering a unique solution for both travelers and senders. Travelers can now optimize their trips by sharing their itineraries and available parcel space, turning their journeys into an opportunity for adventure and shared experiences. On the other side, senders can benefit from a cost-effective and eco-friendly shipping alternative.
 
-        <br />
-        <br />
+            <br />
+            <br />
 
-        Why CoParcel:
-        -   Community-Centric:   We foster a community where trust and collaboration flourish. Every journey becomes a chance to connect, share, and make a positive impact.
-        -   Cost-Effective:   CoParcel helps you save on shipping costs by connecting senders with available parcel space in travelers' bags.
-        -   Sustainability:   Reduce the carbon footprint of parcel delivery by utilizing the existing journeys of our community of travelers.
+            Why CoParcel:
+            Community-Centric:   We foster a community where trust and collaboration flourish. Every journey becomes a chance to connect, share, and make a positive impact.
+            {`           Cost-Effective:   CoParcel helps you save on shipping costs by connecting senders with available parcel space in travelers' bags.
+`}           Sustainability:   Reduce the carbon footprint of parcel delivery by utilizing the existing journeys of our community of travelers.
 
-        <br />
-        <br />
-
-          Our Vision:  
-        At CoParcel, we envision a world where every journey is an opportunity to build connections and share the load. We're committed to making travel more meaningful, economical, and environmentally conscious.
-
-        <br />
-        <br />
-
-          Join Us on this Journey:  
-        Whether you're a traveler with extra space in your bag or someone looking for an affordable and sustainable way to send a parcel, CoParcel is here to bring you together. Join our community, and let's redefine the way we travel and share.
-
-        <br />
-        <br />
-
-        Thank you for being a part of the CoParcel story. Let's embark on this adventure together!
+            <br />
+            <br />
+            Our Vision:
+            {`        At CoParcel, we envision a world where every journey is an opportunity to build connections and share the load. We're committed to making travel more meaningful, economical, and environmentally conscious.
+`}        <br />
+            <br />
+            Join Us on this Journey:
+            {`        Whether you're a traveler with extra space in your bag or someone looking for an affordable and sustainable way to send a parcel, CoParcel is here to bring you together. Join our community, and let's redefine the way we travel and share.
+`}        <br />
+            <br />
+            {`        Thank you for being a part of the CoParcel story. Let's embark on this adventure together!
+`}
           </Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
             <Button

@@ -26,16 +26,17 @@ export default function Hero() {
             fontWeight={600}
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
-            "CoParcel: Uniting Journeys <br />
-            <Text as={'span'} color={'green.400'}>
-            Delivering Connections!
+            {`            "CoParcel: Uniting Journeys
+`}            <Text as={'span'} color={'green.400'}>
+              Delivering Connections!
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-          `"Empower your travels with CoParcel: 
-          Earn rewards as a trusted traveler by sharing your journey and offering parcel space. 
-          Get exclusive access to discounts and perks, 
-          turning every trip into a rewarding adventure for both you and those relying on your journey."`
+            {`          "Empower your travels with CoParcel: 
+`}          Earn rewards as a trusted traveler by sharing your journey and offering parcel space.
+            Get exclusive access to discounts and perks,
+            {`          turning every trip into a rewarding adventure for both you and those relying on your journey."
+`}
           </Text>
           <Stack
             direction={'column'}
