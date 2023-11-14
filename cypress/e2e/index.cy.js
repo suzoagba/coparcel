@@ -1,7 +1,7 @@
 describe('Homepage', () => {
     it('should load successfully and contain a specific element', () => {
       // Visit the home page
-      cy.visit('/');
+      cy.visit('https://coparcel.vercel.app/');
   
       // Check if the page title is correct
       cy.title().should('eq', 'Home');
