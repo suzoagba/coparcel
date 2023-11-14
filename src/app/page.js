@@ -4,17 +4,20 @@ import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import Footer from "../components/Footer"
 import Carousel from "../components/Carousels"
+import Head from 'next/head'
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <Head>
+        <title>
+          Home
+        </title>
+      </Head>
+      <main className='main-parcel'><Navbar />
       <Carousel />
       <Hero />
       <Footer />
-      <h1>Home Page</h1>
-      <Link href={"/about"}>
-        Go to about page
-      </Link>
+      </main>
     </div>
 
   )
